@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>>World Greatest University</title>
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="stylesub.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="UnivLogo.png" width="220px" height="90px"></a>
+            <div class="navlinks" id="navlinks"> 
+                <i class='bx bx-window-close' onclick="hidemenu();"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <i class='bx bx-menu' onclick="showmenu();"></i>
+            <h1>Contact</h1>
+
+        </nav>
+       
+    </section>
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15744.836806000307!2d77.4562284042193!3d9.403031466023066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06ebfb52792fd9%3A0x800d352085962dd4!2sSeithur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1720845679080!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section>
+   <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class='bx bxs-home'></i>
+                    <span>
+                        <h5>XYZ Road,ABC Building</h5>
+                        <p>Bangalore,Karnataka</p>
+                    </span>
+                </div>
+                <div>
+                    <i class='bx bxs-phone'></i>
+                    <span>
+                        <h5>+91 9876543210</h5>
+                        <p>Monday to Saturday,10AM to 5PM </p>
+                    </span>
+                </div>
+                <div>
+                    <i class='bx bx-envelope' ></i>
+                    <span>
+                        <h5>info@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" placeholder="Enter your name" name="name" required>
+                    <input type="email"placeholder="Enter email address" name="email" required>
+                    <input type="text" placeholder="Enter the subject"name="subject"required>
+                    <textarea rows="8" name="message" required></textarea>
+                    <button type="submit" class="click-btn red-btn">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+       
+   </section>
+    <section class="footer">
+        <h4>Abous Us</h4>
+        <div>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have variation of passage
+                <br>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't .</p>
+            <i class='bx bxl-facebook' ></i>
+            <i class='bx bxl-twitter' ></i>
+            <i class='bx bxl-instagram' ></i>
+
+            <i class='bx bxl-linkedin' ></i>
+        </div>
+        <p>Made With<i class='bx bx-heart'></i> by Easy Tutorial</p>
+    </section>
+    <script>
+        var a=document.getElementById("navlinks");
+        function showmenu()
+        {
+            a.style.right="0";
+        }
+        function hidemenu()
+        {
+            a.style.right="-200px"
+        }
+    </script>
+
+</body>
+
+</html>

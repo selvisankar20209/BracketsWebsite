@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>>World Greatest University</title>
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="stylesub.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="UnivLogo.png" width="220px" height="90px"></a>
+            <div class="navlinks" id="navlinks"> 
+                <i class='bx bx-window-close' onclick="hidemenu();"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <i class='bx bx-menu' onclick="showmenu();"></i>
+            <h1>About</h1>
+
+        </nav>
+       
+    </section>
+    <section class="about">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The World Largest Univesity</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially 
+                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <a href=""class="red-btn click-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+               <img src="Office-Meet1.jpg"> 
+            </div>
+
+        </div>
+    </section>
+    <section class="footer">
+        <h4>Abous Us</h4>
+        <div>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have variation of passage
+                <br>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't .</p>
+            <i class='bx bxl-facebook' ></i>
+            <i class='bx bxl-twitter' ></i>
+            <i class='bx bxl-instagram' ></i>
+
+            <i class='bx bxl-linkedin' ></i>
+        </div>
+        <p>Made With<i class='bx bx-heart'></i> by Easy Tutorial</p>
+    </section>
+    <script>
+        var a=document.getElementById("navlinks");
+        function showmenu()
+        {
+            a.style.right="0";
+        }
+        function hidemenu()
+        {
+            a.style.right="-200px"
+        }
+    </script>
+
+</body>
+
+</html>
